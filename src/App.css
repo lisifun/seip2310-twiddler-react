@@ -36,3 +36,285 @@
     transform: rotate(360deg);
   }
 }
+
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html,
+body,
+#app {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+#app {
+  background-color: white;
+  color: black;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+}
+
+#section1 {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.title-web {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 250px;
+  font-size: 30px;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+.twidder-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.search-web {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 400px;
+  height: 110px;
+  padding: 10px;
+}
+
+.explorer {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  font-size: 1.0625rem;
+  color: black;
+  background-color: lightgray;
+  padding-left: 12px;
+}
+
+.explorer-button {
+  order: 2px solid black;
+  border-radius: 15px;
+  width: 80px;
+  height: 45px;
+  background-color: lightgray;
+  color: black;
+  font-size: 1.0625rem;
+}
+
+.block {
+  display: flex;
+  margin: 10px 20px;
+  /* gap: 20px; */
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 250px;
+  height: 330px;
+  /* margin: 20px; */
+  padding: 10px;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 225px;
+  height: 40px;
+  background-color: lightgray;
+  color: black;
+  font-size: 1.0625rem;
+}
+
+#section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.new-tweet {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 400px;
+  height: 110px;
+  padding: 10px;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.mood {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: lightgray;
+  color: black;
+  font-size: 1.0625rem;
+  padding-left: 12px;
+}
+
+.tweet-button {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 80px;
+  height: 45px;
+  background-color: lightgray;
+  color: black;
+  font-size: 1.0625rem;
+}
+
+.user-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 400px;
+  height: 230px;
+  margin: 20px;
+  padding: 20px 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tweet {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 350px;
+  height: 60px;
+  background-color: lightgray;
+  color: black;
+  font-size: 1.0625rem;
+  text-align: center;
+}
+
+.reaction {
+  border: 0px;
+  background-color: white;
+  width: 30px;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 60px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.commentbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Adjust the color and opacity as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.commentbox-content {
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  padding: 20px 10px;
+  gap: 20px;
+  background-color: white;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.meinfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.profile-photo-comment {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 280px;
+  height: 360px;
+  padding: 10px;
+}
+
+.friend-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.friend-photo {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.friends a {
+  text-decoration: none;
+}
